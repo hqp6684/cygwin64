@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>VIM: version8</title>
+<link rel="stylesheet" href="vim-stylesheet.css" type="text/css">
+</head>
+<body>
+<h2>VERSION8</h2>
+<pre>
+<b class="vimtag">*<a name="version8.txt">version8.txt</a>*</b>  For Vim version 8.0.  Last change: 2016 Apr 14
+
+
+		  VIM REFERENCE MANUAL    by Bram Moolenaar
+
+<code class="note">NOTE:</code> THIS FILE IS STILL BEING WORKED ON
+
+				<b class="vimtag">*<a name="vim8">vim8</a>*</b> <b class="vimtag">*<a name="vim-8">vim-8</a>*</b> <b class="vimtag">*<a name="version-8.0">version-8.0</a>*</b> <b class="vimtag">*<a name="version8.0">version8.0</a>*</b>
+Welcome to Vim 8!  A large number of bugs have been fixed and several
+features have been added.  This file mentions all the new items and changes to
+existing features since Vim 7.4. Bug fixes, the patches for Vim 7.4, can be
+found below |<a href="version7.html#vim-7.4">vim-7.4</a>|.  Use this command to see the version you are using:
+<code class="example">	:version</code>
+<code class="example"></code>
+See |<a href="vi_diff.html#vi_diff.txt">vi_diff</a>| for an overview of differences between Vi and Vim 7.0.
+See |<a href="version4.html#version4.txt">version4</a>| for differences between Vim 3.x and Vim 4.x.
+See |<a href="version5.html#version5.txt">version5</a>| for differences between Vim 4.x and Vim 5.x.
+See |<a href="version6.html#version6.txt">version6</a>| for differences between Vim 5.x and Vim 6.x.
+See |<a href="version7.html#version7.txt">version7</a>| for differences between Vim 6.x and Vim 7.x.
+
+INCOMPATIBLE CHANGES			|<a href="version8.html#incompatible-8">incompatible-8</a>|
+
+NEW FEATURES				|<a href="version8.html#new-8">new-8</a>|
+
+Vim script enhancements			|<a href="version8.html#new-vim-script-8">new-vim-script-8</a>|
+
+IMPROVEMENTS				|<a href="version8.html#improvements-8">improvements-8</a>|
+
+COMPILE TIME CHANGES			|<a href="version8.html#compile-changes-8">compile-changes-8</a>|
+
+PATCHES					|<a href="version8.html#patches-8">patches-8</a>|
+
+
+</pre><hr><pre>INCOMPATIBLE CHANGES				<b class="vimtag">*<a name="incompatible-8">incompatible-8</a>*</b>
+
+These changes are incompatible with previous releases.  Check this list if you
+run into a problem when upgrading from Vim 7.4 to 8.0.
+
+The support for MS-DOS has been removed.  It hasn't been working for a while
+and removing it cleans up the code quite a bit.
+
+The support for Windows 16 bit (Windows 95 and older) has been removed.
+
+Minor incompatibilities:
+
+For filetype detection: ...
+
+</pre><hr><pre>NEW FEATURES						<b class="vimtag">*<a name="new-8">new-8</a>*</b>
+
+First a list of the bigger new features.  A comprehensive list is below.
+
+
+<code class="section">Asynchronous I/O support, channels </code>
+
+Vim can now exchange messages with another process in the background.  The
+messages are received and handled while Vim is waiting for a character.  See
+|<a href="channel.html#channel-demo">channel-demo</a>| for an example, communicating with a Python server.
+
+Closely related to channels is JSON support.  JSON is widely supported and can
+easily be used for inter-process communication, allowing for writing a server
+in any language.  The functions to use are |<a href="eval.html#json_encode()">json_encode()</a>| and |<a href="eval.html#json_decode()">json_decode()</a>|.
+
+
+<code class="section">Jobs </code>
+
+Vim can now start a job, communicate with it and stop it.  This is very useful
+to run a process for completion, syntax checking, etc.  Channels are used to
+communicate with the job.  Jobs can also read from or write to a buffer or a
+file.  See |<a href="eval.html#job_start()">job_start()</a>|.
+
+
+<code class="section">Timers </code>
+
+Also asynchronous are timers.  They can fire once or repeatedly and invoke a
+function to do any work.  For example:
+<code class="example">	let tempTimer = timer_start(4000, 'CheckTemp')</code>
+This will make a call four seconds (4000 milli seconds) later, like:
+<code class="example">	call CheckTemp()</code>
+<code class="example"></code>
+<code class="example"></code>
+<code class="section">Partials </code>
+
+Vim already had a Funcref, a reference to a function.  A partial also refers
+to a function, and additionally binds arguments and/or a dictionary.  This is
+especially useful for callbacks on channels and timers.  E.g., for the timer
+example above, to pass an argument to the function:
+<code class="example">	let tempTimer = timer_start(4000, function('CheckTemp', ['out']))</code>
+This will a make call four seconds later, like:
+<code class="example">	call CheckTemp('out')</code>
+<code class="example"></code>
+<code class="example"></code>
+<code class="section">Packages </code>
+
+Plugins keep growing and more of them are available than ever before.  To keep
+the collection of plugins manageable package support has been added.  This is
+a convenient way to get one or more plugins, drop them in a directory and
+possibly keep them updated.  Vim will load them automatically, or only when
+desired.  See |<a href="repeat.html#packages">packages</a>|.
+
+
+<code class="section">New style tests </code>
+
+This is for Vim developers.  So far writing tests for Vim has not been easy.
+Vim 8 adds assert functions and a framework to run tests.  This makes it a lot
+simpler to write tests and keep them updated.
+
+These functions have been added:
+	|<a href="eval.html#assert_equal()">assert_equal()</a>|
+	|<a href="eval.html#assert_notequal()">assert_notequal()</a>|
+	|<a href="eval.html#assert_exception()">assert_exception()</a>|
+	|<a href="eval.html#assert_fails()">assert_fails()</a>|
+	|<a href="eval.html#assert_false()">assert_false()</a>|
+	|<a href="eval.html#assert_match()">assert_match()</a>|
+	|<a href="eval.html#assert_notmatch()">assert_notmatch()</a>|
+	|<a href="eval.html#assert_true()">assert_true()</a>|
+	|<a href="eval.html#alloc_fail()">alloc_fail()</a>|
+	|<a href="eval.html#disable_char_avail_for_testing()">disable_char_avail_for_testing()</a>|
+
+
+<code class="section">Window IDs </code>
+
+Previously windows could only be accessed by their number. And every time a
+window would open, close or move that number changes.  Each window now has a
+unique ID, so that they are easy to find.
+
+
+<code class="section">Wrapping lines with indent </code>
+
+The 'breakindent' option has been added to be able to wrap lines without
+changing the amount of indent.
+
+
+<code class="section">Windows: Direct-X support </code>
+
+This adds the 'renderoptions' option to allow for switching on Direct-X
+(DirectWrite) support on MS-Windows.
+
+
+<code class="section">GTK+ 3 support </code>
+
+GTK+ 2 is getting old, GTK+ 3 is here.  Support has been added and it already
+works quite well, mostly just like GTK+ 2.
+
+
+Vim script enhancements					<b class="vimtag">*<a name="new-vim-script-8">new-vim-script-8</a>*</b>
+</pre><hr><pre>
+In Vim script the following types have been added:
+
+	|<a href="eval.html#Special">Special</a>|	|<a href="eval.html#v:false">v:false</a>|, |<a href="eval.html#v:true">v:true</a>|, |<a href="eval.html#v:none">v:none</a>| and |<a href="eval.html#v:null">v:null</a>|
+	|<a href="eval.html#Channel">Channel</a>|	connection to another process for asynchronous I/O
+	|<a href="eval.html#Job">Job</a>|		process control
+
+Many functions and commands have been added to support the new types.
+
+
+
+Various new items					<b class="vimtag">*<a name="new-items-8">new-items-8</a>*</b>
+</pre><hr><pre>
+<code class="section">Normal mode commands: </code>
+
+
+<code class="section">Insert mode commands: </code>
+
+
+<code class="section">Options: </code>
+
+
+<code class="section">Ex commands: </code>
+
+
+<code class="section">Ex command modifiers: </code>
+
+
+<code class="section">Ex command arguments: </code>
+
+
+<code class="section">New and extended functions: </code>
+
+
+
+<code class="section">New Vim variables: </code>
+
+|<a href="eval.html#v:vim_did_enter">v:vim_did_enter</a>|	Set when VimEnter autocommands are triggered
+
+
+<code class="section">New autocommand events: </code>
+
+
+
+<code class="section">New highlight groups: </code>
+
+
+<code class="section">New items in search patterns: </code>
+
+
+<code class="section">New Syntax/Indent/FTplugin files: </code>
+
+
+<code class="section">New Keymaps: </code>
+
+
+<code class="section">New message translations: </code>
+
+
+<code class="section">Others: </code>
+
+
+</pre><hr><pre>IMPROVEMENTS						<b class="vimtag">*<a name="improvements-8">improvements-8</a>*</b>
+
+The existing blowfish encryption turned out to be much weaker than it was
+supposed to be.  The blowfish2 method has been added to fix that.  <code class="note">Note</code> that
+this still isn't a state-of-the-art encryption, but good enough for most
+usage.  See 'cryptmethod'.
+
+</pre><hr><pre>COMPILE TIME CHANGES					<b class="vimtag">*<a name="compile-changes-8">compile-changes-8</a>*</b>
+
+Dropped the support for MS-DOS.  It was too big to fit in memory.
+
+
+</pre><hr><pre>PATCHES						<b class="vimtag">*<a name="patches-8">patches-8</a>*</b> <b class="vimtag">*<a name="bug-fixes-8">bug-fixes-8</a>*</b>
+
+The list of patches that got included since 7.4.0.  This includes all the new
+features, but does not include runtime file changes (syntax, indent, help,
+etc.)
+
+TODO: INCLUDE PATCH LIST.
+
+ vim:tw=78:ts=8:ft=help:norl:
+</pre>
+<p><i>Generated by vim2html on Mon, 02 May 2016 16:38:55</i></p>
+</body>
+</html>

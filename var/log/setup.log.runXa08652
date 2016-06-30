@@ -1,0 +1,10 @@
+cat: '/var/lib/rebase/dynpath.d/*': No such file or directory
+Updating package information in /var/cache/rebase/rebase_pkg.
+	from /etc/setup/libtasn1_6.lst.gz...
+Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
+Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
+removing /var/cache/rebase/rebase_dyn
+creating empty /var/cache/rebase/rebase_dyn
+Updating rebase information for user-defined dynamic objects /var/cache/rebase/rebase_user.
+Updating rebase information for user-defined executables /var/cache/rebase/rebase_user_exe.
+Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_lst /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_user.

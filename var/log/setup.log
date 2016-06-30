@@ -1,0 +1,547 @@
+2016/06/28 15:42:36 Starting cygwin install, version 2.874
+2016/06/28 15:42:36 User has backup/restore rights
+2016/06/28 15:42:36 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2016/06/28 15:42:36 Current Directory: C:\Windows\system32
+2016/06/28 15:42:36 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/28 15:42:41 source: network install
+2016/06/28 15:42:44 root: C:\cygwin64 system
+2016/06/28 15:42:46 Selected local directory: C:\Windows\system32
+2016/06/28 15:42:50 Selected local directory: C:\Windows\system32
+2016/06/28 15:42:52 net: Direct
+2016/06/28 15:42:58 site: http://cygwin.mirror.constant.com/
+2016/06/28 15:42:59 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2016/06/28 15:43:00 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2016/06/28 15:43:14 Adding required dependency bzip2: Selecting version 1.0.6-2 for installation.
+2016/06/28 15:43:14 Adding required dependency ca-certificates: Selecting version 2.7-1 for installation.
+2016/06/28 15:43:14 Adding required dependency groff: Selecting version 1.22.3-1 for installation.
+2016/06/28 15:43:14 Adding required dependency less: Selecting version 481-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libargp: Selecting version 20110921-2 for installation.
+2016/06/28 15:43:14 Adding required dependency libattr1: Selecting version 2.4.46-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libblkid1: Selecting version 2.25.2-2 for installation.
+2016/06/28 15:43:14 Adding required dependency libbz2_1: Selecting version 1.0.6-2 for installation.
+2016/06/28 15:43:14 Adding required dependency libffi6: Selecting version 3.2.1-2 for installation.
+2016/06/28 15:43:14 Adding required dependency libgcc1: Selecting version 5.4.0-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libgdbm4: Selecting version 1.11-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libgmp10: Selecting version 6.1.0-3p1 for installation.
+2016/06/28 15:43:14 Adding required dependency libiconv: Selecting version 1.14-3 for installation.
+2016/06/28 15:43:14 Adding required dependency libiconv2: Selecting version 1.14-3 for installation.
+2016/06/28 15:43:14 Adding required dependency libintl8: Selecting version 0.19.7-1 for installation.
+2016/06/28 15:43:14 Adding required dependency liblzma5: Selecting version 5.2.2-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libmpfr4: Selecting version 3.1.4-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libncursesw10: Selecting version 6.0-5.20160423 for installation.
+2016/06/28 15:43:14 Adding required dependency libp11-kit0: Selecting version 0.22.1-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libpcre1: Selecting version 8.38-3 for installation.
+2016/06/28 15:43:14 Adding required dependency libpipeline1: Selecting version 1.4.0-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libpopt0: Selecting version 1.16-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libsmartcols1: Selecting version 2.25.2-2 for installation.
+2016/06/28 15:43:14 Adding required dependency libssp0: Selecting version 5.4.0-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libstdc++6: Selecting version 5.4.0-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libtasn1_6: Selecting version 4.7-1 for installation.
+2016/06/28 15:43:14 Adding required dependency libuuid1: Selecting version 2.25.2-2 for installation.
+2016/06/28 15:43:14 Adding required dependency lynx: Selecting version 2.8.7-2 for installation.
+2016/06/28 15:43:14 Adding required dependency p11-kit: Selecting version 0.22.1-1 for installation.
+2016/06/28 15:43:14 Adding required dependency p11-kit-trust: Selecting version 0.22.1-1 for installation.
+2016/06/28 15:43:14 Adding required dependency popt: Selecting version 1.16-1 for installation.
+2016/06/28 15:43:14 Adding required dependency xz: Selecting version 5.2.2-1 for installation.
+2016/06/28 15:43:14 Adding required dependency zlib0: Selecting version 1.2.8-3 for installation.
+2016/06/28 15:43:14 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001004-1.tar.xz
+2016/06/28 15:43:14 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2016/06/28 15:43:15 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2016/06/28 15:43:15 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.2-4.tar.xz
+2016/06/28 15:43:15 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.3.42-4.tar.xz
+2016/06/28 15:43:16 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.6-2.tar.bz2
+2016/06/28 15:43:16 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.7-1.tar.xz
+2016/06/28 15:43:17 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/coreutils/coreutils-8.25-3.tar.xz
+2016/06/28 15:43:17 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygutils/cygutils-1.4.15-2.tar.xz
+2016/06/28 15:43:19 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-2.5.2-1.tar.xz
+2016/06/28 15:43:19 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/dash/dash-0.5.8-3.tar.xz
+2016/06/28 15:43:19 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2016/06/28 15:43:20 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/file/file-5.25-1.tar.xz
+2016/06/28 15:43:20 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2016/06/28 15:43:21 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gawk/gawk-4.1.3-1.tar.xz
+2016/06/28 15:43:21 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2016/06/28 15:43:21 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/grep/grep-2.24-1.tar.xz
+2016/06/28 15:43:22 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/groff/groff-1.22.3-1.tar.xz
+2016/06/28 15:43:23 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gzip/gzip-1.7-2.tar.xz
+2016/06/28 15:43:23 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2016/06/28 15:43:23 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.1-2.tar.xz
+2016/06/28 15:43:23 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2016/06/28 15:43:23 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/less/less-481-1.tar.xz
+2016/06/28 15:43:24 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libargp/libargp-20110921-2.tar.bz2
+2016/06/28 15:43:24 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/attr/libattr1/libattr1-2.4.46-1.tar.bz2
+2016/06/28 15:43:24 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.25.2-2.tar.xz
+2016/06/28 15:43:24 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.6-2.tar.bz2
+2016/06/28 15:43:24 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2016/06/28 15:43:24 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-5.4.0-1.tar.xz
+2016/06/28 15:43:24 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.11-1.tar.xz
+2016/06/28 15:43:25 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.0-3p1.tar.xz
+2016/06/28 15:43:25 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2016/06/28 15:43:25 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2016/06/28 15:43:25 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gettext/libintl8/libintl8-0.19.7-1.tar.xz
+2016/06/28 15:43:25 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.2-1.tar.xz
+2016/06/28 15:43:26 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr4/libmpfr4-3.1.4-1.tar.xz
+2016/06/28 15:43:26 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.0-5.20160423.tar.xz
+2016/06/28 15:43:26 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libopenssl100/libopenssl100-1.0.2h-1.tar.xz
+2016/06/28 15:43:26 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.22.1-1.tar.xz
+2016/06/28 15:43:27 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.38-3.tar.xz
+2016/06/28 15:43:27 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
+2016/06/28 15:43:27 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-1.tar.xz
+2016/06/28 15:43:27 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/readline/libreadline7/libreadline7-6.3.8-1.tar.xz
+2016/06/28 15:43:27 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.25.2-2.tar.xz
+2016/06/28 15:43:27 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libssp0/libssp0-5.4.0-1.tar.xz
+2016/06/28 15:43:27 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-5.4.0-1.tar.xz
+2016/06/28 15:43:28 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.7-1.tar.xz
+2016/06/28 15:43:28 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.25.2-2.tar.xz
+2016/06/28 15:43:28 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/login/login-1.11-1.tar.xz
+2016/06/28 15:43:29 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/lynx/lynx-2.8.7-2.tar.bz2
+2016/06/28 15:43:29 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.4-1.tar.xz
+2016/06/28 15:43:30 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-2.3.7-0.tar.xz
+2016/06/28 15:43:30 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/ncurses-6.0-5.20160423.tar.xz
+2016/06/28 15:43:30 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.0.2h-1.tar.xz
+2016/06/28 15:43:30 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-0.22.1-1.tar.xz
+2016/06/28 15:43:30 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.22.1-1.tar.xz
+2016/06/28 15:43:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/popt-1.16-1.tar.xz
+2016/06/28 15:43:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rebase/rebase-4.4.2-1.tar.xz
+2016/06/28 15:43:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2016/06/28 15:43:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sed/sed-4.2.2-3.tar.bz2
+2016/06/28 15:43:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tar/tar-1.28-1.tar.xz
+2016/06/28 15:43:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-5.20160423.tar.xz
+2016/06/28 15:43:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2016e-1.tar.xz
+2016/06/28 15:43:33 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/util-linux-2.25.2-2.tar.xz
+2016/06/28 15:43:33 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-7.4.1816-1.tar.xz
+2016/06/28 15:43:33 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2016/06/28 15:43:34 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/xz-5.2.2-1.tar.xz
+2016/06/28 15:43:34 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.8-3.tar.xz
+2016/06/28 15:43:36 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001004-1.tar.xz
+2016/06/28 15:43:37 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2016/06/28 15:43:38 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2016/06/28 15:43:38 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.2-4.tar.xz
+2016/06/28 15:43:38 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.3.42-4.tar.xz
+2016/06/28 15:43:40 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.6-2.tar.bz2
+2016/06/28 15:43:40 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.7-1.tar.xz
+2016/06/28 15:43:40 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/coreutils/coreutils-8.25-3.tar.xz
+2016/06/28 15:43:46 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygutils/cygutils-1.4.15-2.tar.xz
+2016/06/28 15:43:46 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-2.5.2-1.tar.xz
+2016/06/28 15:43:48 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/dash/dash-0.5.8-3.tar.xz
+2016/06/28 15:43:48 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2016/06/28 15:43:48 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/file/file-5.25-1.tar.xz
+2016/06/28 15:43:48 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2016/06/28 15:43:49 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gawk/gawk-4.1.3-1.tar.xz
+2016/06/28 15:43:50 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2016/06/28 15:43:50 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/grep/grep-2.24-1.tar.xz
+2016/06/28 15:43:51 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/groff/groff-1.22.3-1.tar.xz
+2016/06/28 15:43:58 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gzip/gzip-1.7-2.tar.xz
+2016/06/28 15:43:58 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2016/06/28 15:43:58 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.1-2.tar.xz
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/less/less-481-1.tar.xz
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libargp/libargp-20110921-2.tar.bz2
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/attr/libattr1/libattr1-2.4.46-1.tar.bz2
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.25.2-2.tar.xz
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.6-2.tar.bz2
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-5.4.0-1.tar.xz
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.11-1.tar.xz
+2016/06/28 15:43:59 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.0-3p1.tar.xz
+2016/06/28 15:44:00 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2016/06/28 15:44:00 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2016/06/28 15:44:00 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gettext/libintl8/libintl8-0.19.7-1.tar.xz
+2016/06/28 15:44:00 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.2-1.tar.xz
+2016/06/28 15:44:00 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr4/libmpfr4-3.1.4-1.tar.xz
+2016/06/28 15:44:00 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.0-5.20160423.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libopenssl100/libopenssl100-1.0.2h-1.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.22.1-1.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.38-3.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/readline/libreadline7/libreadline7-6.3.8-1.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.25.2-2.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libssp0/libssp0-5.4.0-1.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-5.4.0-1.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.7-1.tar.xz
+2016/06/28 15:44:01 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.25.2-2.tar.xz
+2016/06/28 15:44:02 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/login/login-1.11-1.tar.xz
+2016/06/28 15:44:02 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/lynx/lynx-2.8.7-2.tar.bz2
+2016/06/28 15:44:03 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.4-1.tar.xz
+2016/06/28 15:44:06 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-2.3.7-0.tar.xz
+2016/06/28 15:44:07 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/ncurses-6.0-5.20160423.tar.xz
+2016/06/28 15:44:07 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.0.2h-1.tar.xz
+2016/06/28 15:44:08 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-0.22.1-1.tar.xz
+2016/06/28 15:44:08 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.22.1-1.tar.xz
+2016/06/28 15:44:08 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/popt-1.16-1.tar.xz
+2016/06/28 15:44:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rebase/rebase-4.4.2-1.tar.xz
+2016/06/28 15:44:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2016/06/28 15:44:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sed/sed-4.2.2-3.tar.bz2
+2016/06/28 15:44:10 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tar/tar-1.28-1.tar.xz
+2016/06/28 15:44:10 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-5.20160423.tar.xz
+2016/06/28 15:44:11 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2016e-1.tar.xz
+2016/06/28 15:44:19 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/util-linux-2.25.2-2.tar.xz
+2016/06/28 15:44:22 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-7.4.1816-1.tar.xz
+2016/06/28 15:44:22 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2016/06/28 15:44:23 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/xz-5.2.2-1.tar.xz
+2016/06/28 15:44:23 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.8-3.tar.xz
+2016/06/28 15:44:23 Changing gid back to original
+2016/06/28 15:44:23 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2016/06/28 15:45:11 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2016/06/28 15:45:15 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2016/06/28 15:45:16 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2016/06/28 15:45:16 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2016/06/28 15:45:16 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2016/06/28 15:45:17 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2016/06/28 15:45:19 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2016/06/28 15:45:22 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/lynx.sh"
+2016/06/28 15:45:23 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2016/06/28 15:45:23 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2016/06/28 15:45:23 Changing gid to Administrators
+2016/06/28 15:45:34 note: Installation Complete
+2016/06/28 15:45:34 Ending cygwin install
+2016/06/28 17:08:20 Starting cygwin install, version 2.874
+2016/06/28 17:08:20 User has backup/restore rights
+2016/06/28 17:08:20 Current Directory: C:\Windows\system32
+2016/06/28 17:08:20 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/28 17:08:29 source: network install
+2016/06/28 17:08:32 root: C:\cygwin64 system
+2016/06/28 17:08:33 Selected local directory: C:\Windows\system32
+2016/06/28 17:08:34 net: Direct
+2016/06/28 17:08:38 site: http://cygwin.mirror.constant.com/
+2016/06/28 17:12:00 Ending cygwin install
+2016/06/28 17:26:06 Starting cygwin install, version 2.874
+2016/06/28 17:26:06 User has backup/restore rights
+2016/06/28 17:26:06 Current Directory: C:\Windows\system32
+2016/06/28 17:26:06 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/28 17:26:08 source: network install
+2016/06/28 17:26:09 root: C:\cygwin64 system
+2016/06/28 17:26:10 Selected local directory: C:\Windows\system32
+2016/06/28 17:26:11 net: Direct
+2016/06/28 17:26:13 site: http://cygwin.mirror.constant.com/
+2016/06/28 17:26:18 Changing gid back to original
+2016/06/28 17:26:18 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2016/06/28 17:26:22 note: Nothing needed to be installed
+2016/06/28 17:26:22 Ending cygwin install
+2016/06/28 17:26:32 Starting cygwin install, version 2.874
+2016/06/28 17:26:32 User has backup/restore rights
+2016/06/28 17:26:32 Current Directory: C:\Windows\system32
+2016/06/28 17:26:32 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/28 17:26:34 source: network install
+2016/06/28 17:26:35 root: C:\cygwin64 system
+2016/06/28 17:26:36 Selected local directory: C:\Windows\system32
+2016/06/28 17:26:36 net: Direct
+2016/06/28 17:26:38 site: http://cygwin.mirror.constant.com/
+2016/06/28 17:29:45 Adding required dependency cygwin-debuginfo: Selecting version 2.5.2-1 for installation.
+2016/06/28 17:29:45 Adding required dependency libevent2.0_5: Selecting version 2.0.22-1 for installation.
+2016/06/28 17:29:45 Adding required dependency xxd: Selecting version 7.4.1816-1 for installation.
+2016/06/28 17:29:47 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-debuginfo/cygwin-debuginfo-2.5.2-1.tar.xz
+2016/06/28 17:29:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libevent/libevent2.0_5/libevent2.0_5-2.0.22-1.tar.xz
+2016/06/28 17:29:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tmux/tmux-2.2-1.tar.xz
+2016/06/28 17:29:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tmux/tmux-debuginfo/tmux-debuginfo-2.2-1.tar.xz
+2016/06/28 17:29:49 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-7.4.1816-1.tar.xz
+2016/06/28 17:29:51 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-common/vim-common-7.4.1816-1.tar.xz
+2016/06/28 17:29:52 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-doc/vim-doc-7.4.1816-1.tar.xz
+2016/06/28 17:29:52 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/xxd/xxd-7.4.1816-1.tar.xz
+2016/06/28 17:29:54 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-debuginfo/cygwin-debuginfo-2.5.2-1.tar.xz
+2016/06/28 17:30:04 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libevent/libevent2.0_5/libevent2.0_5-2.0.22-1.tar.xz
+2016/06/28 17:30:04 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tmux/tmux-2.2-1.tar.xz
+2016/06/28 17:30:04 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tmux/tmux-debuginfo/tmux-debuginfo-2.2-1.tar.xz
+2016/06/28 17:30:05 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-7.4.1816-1.tar.xz
+2016/06/28 17:30:06 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-common/vim-common-7.4.1816-1.tar.xz
+2016/06/28 17:30:18 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-doc/vim-doc-7.4.1816-1.tar.xz
+2016/06/28 17:30:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/xxd/xxd-7.4.1816-1.tar.xz
+2016/06/28 17:30:20 Changing gid back to original
+2016/06/28 17:30:20 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2016/06/28 17:30:40 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2016/06/28 17:30:41 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/vim.sh"
+2016/06/28 17:30:41 Changing gid to Administrators
+2016/06/28 17:30:44 note: Installation Complete
+2016/06/28 17:30:44 Ending cygwin install
+2016/06/30 14:20:08 Starting cygwin install, version 2.874
+2016/06/30 14:20:08 User has backup/restore rights
+2016/06/30 14:20:08 Current Directory: C:\Windows\system32
+2016/06/30 14:20:08 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/30 14:20:11 source: network install
+2016/06/30 14:20:12 root: C:\cygwin64 system
+2016/06/30 14:20:13 Selected local directory: C:\Windows\system32
+2016/06/30 14:20:16 net: Direct
+2016/06/30 14:20:18 site: http://cygwin.mirror.constant.com/
+2016/06/30 14:20:19 mbox note: Mirror Error:  Setup.ini signature http://cygwin.mirror.constant.com/x86_64/setup.xz.sig from http://cygwin.mirror.constant.com/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2016/06/30 14:20:26 mbox note: Unable to get setup from <http://cygwin.mirror.constant.com/>
+2016/06/30 14:20:31 site: http://mirror.devback.com/cygwin/
+2016/06/30 14:21:01 Ending cygwin install
+2016/06/30 14:21:13 Starting cygwin install, version 2.874
+2016/06/30 14:21:13 User has backup/restore rights
+2016/06/30 14:21:13 Current Directory: C:\Windows\system32
+2016/06/30 14:21:13 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/30 14:21:16 source: network install
+2016/06/30 14:21:18 root: C:\cygwin64 system
+2016/06/30 14:21:19 Selected local directory: C:\Windows\system32
+2016/06/30 14:21:21 net: Direct
+2016/06/30 14:21:24 site: http://cygwin.mirror.constant.com/
+2016/06/30 14:21:29 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.8-1.tar.xz
+2016/06/30 14:21:31 Running preremove script for  libtasn1_6
+2016/06/30 14:21:31 Uninstalling libtasn1_6
+2016/06/30 14:21:31 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.8-1.tar.xz
+2016/06/30 14:21:31 Changing gid back to original
+2016/06/30 14:21:31 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2016/06/30 14:21:32 note: Installation Complete
+2016/06/30 14:21:32 Ending cygwin install
+2016/06/30 14:21:39 Starting cygwin install, version 2.874
+2016/06/30 14:21:39 User has backup/restore rights
+2016/06/30 14:21:39 Current Directory: C:\Windows\system32
+2016/06/30 14:21:39 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/30 14:21:40 source: network install
+2016/06/30 14:21:41 root: C:\cygwin64 system
+2016/06/30 14:21:42 Selected local directory: C:\Windows\system32
+2016/06/30 14:21:42 net: Direct
+2016/06/30 14:21:43 site: http://cygwin.mirror.constant.com/
+2016/06/30 14:26:30 Adding required dependency desktop-file-utils: Selecting version 0.22-2 for installation.
+2016/06/30 14:26:30 Adding required dependency gamin: Selecting version 0.1.10-15 for installation.
+2016/06/30 14:26:30 Adding required dependency gsettings-desktop-schemas: Selecting version 3.18.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libcloog-isl4: Selecting version 0.18.0-2 for installation.
+2016/06/30 14:26:30 Adding required dependency libcom_err2: Selecting version 1.42.12-2 for installation.
+2016/06/30 14:26:30 Adding required dependency libcrypt0: Selecting version 1.4-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libdb5.3: Selecting version 5.3.21-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libedit0: Selecting version 20130712-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libexpat1: Selecting version 2.2.0-0 for installation.
+2016/06/30 14:26:30 Adding required dependency libfam0: Selecting version 0.1.10-15 for installation.
+2016/06/30 14:26:30 Adding required dependency libglib2.0_0: Selecting version 2.46.2-4 for installation.
+2016/06/30 14:26:30 Adding required dependency libgssapi_krb5_2: Selecting version 1.14.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libidn11: Selecting version 1.29-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libisl10: Selecting version 0.11.1-2 for installation.
+2016/06/30 14:26:30 Adding required dependency libisl13: Selecting version 0.14.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libk5crypto3: Selecting version 1.14.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libkrb5support0: Selecting version 1.14.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libkrb5_3: Selecting version 1.14.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libmetalink3: Selecting version 0.1.2-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libmpc3: Selecting version 1.0.3-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libnghttp2_14: Selecting version 1.7.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libopenldap2_4_2: Selecting version 2.4.42-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libpsl5: Selecting version 0.13.0-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libsasl2_3: Selecting version 2.1.26-9 for installation.
+2016/06/30 14:26:30 Adding required dependency libssh2_1: Selecting version 1.7.0-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libunistring2: Selecting version 0.9.6-1 for installation.
+2016/06/30 14:26:30 Adding required dependency libxml2: Selecting version 2.9.3-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-binutils: Selecting version 2.25.0.1.23f238d-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-gcc-core: Selecting version 4.9.2-2 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-headers: Selecting version 4.0.6-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-libssh2: Selecting version 1.7.0-2 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-nghttp2: Selecting version 1.7.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-pkg-config: Selecting version 0.28-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-runtime: Selecting version 4.0.6-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-windows-default-manifest: Selecting version 6.4-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-winpthreads: Selecting version 4.0.6-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-i686-zlib: Selecting version 1.2.8-4 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-binutils: Selecting version 2.25.0.1.23f238d-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-gcc-core: Selecting version 4.9.2-2 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-headers: Selecting version 4.0.6-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-libssh2: Selecting version 1.7.0-2 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-nghttp2: Selecting version 1.7.1-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-pkg-config: Selecting version 0.28-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-runtime: Selecting version 4.0.6-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-windows-default-manifest: Selecting version 6.4-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-winpthreads: Selecting version 4.0.6-1 for installation.
+2016/06/30 14:26:30 Adding required dependency mingw64-x86_64-zlib: Selecting version 1.2.8-4 for installation.
+2016/06/30 14:26:30 Adding required dependency perl_base: Selecting version 5.22.2-1 for installation.
+2016/06/30 14:26:30 Adding required dependency php: Selecting version 5.6.21-1 for installation.
+2016/06/30 14:26:30 Adding required dependency pkg-config: Selecting version 0.29-1 for installation.
+2016/06/30 14:26:30 Adding required dependency shared-mime-info: Selecting version 1.6-3 for installation.
+2016/06/30 14:26:30 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/curl-7.49.1-1.tar.xz
+2016/06/30 14:26:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/curl-debuginfo/curl-debuginfo-7.49.1-1.tar.xz
+2016/06/30 14:26:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/desktop-file-utils/desktop-file-utils-0.22-2.tar.xz
+2016/06/30 14:26:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gamin/gamin-0.1.10-15.tar.xz
+2016/06/30 14:26:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.18.1-1.tar.xz
+2016/06/30 14:26:31 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cloog-isl/libcloog-isl4/libcloog-isl4-0.18.0-2.tar.bz2
+2016/06/30 14:26:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.42.12-2.tar.xz
+2016/06/30 14:26:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/crypt/libcrypt0/libcrypt0-1.4-1.tar.xz
+2016/06/30 14:26:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl-devel/libcurl-devel-7.49.1-1.tar.xz
+2016/06/30 14:26:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl-doc/libcurl-doc-7.49.1-1.tar.xz
+2016/06/30 14:26:32 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl4/libcurl4-7.49.1-1.tar.xz
+2016/06/30 14:26:33 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.21-1.tar.bz2
+2016/06/30 14:26:33 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2016/06/30 14:26:33 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/expat/libexpat1/libexpat1-2.2.0-0.tar.xz
+2016/06/30 14:26:34 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gamin/libfam0/libfam0-0.1.10-15.tar.xz
+2016/06/30 14:26:35 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/glib2.0/libglib2.0_0/libglib2.0_0-2.46.2-4.tar.xz
+2016/06/30 14:26:35 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.14.1-1.tar.xz
+2016/06/30 14:26:35 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libidn/libidn11/libidn11-1.29-1.tar.xz
+2016/06/30 14:26:36 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl10/libisl10-0.11.1-2.tar.bz2
+2016/06/30 14:26:36 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl13/libisl13-0.14.1-1.tar.xz
+2016/06/30 14:26:36 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.14.1-1.tar.xz
+2016/06/30 14:26:36 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.14.1-1.tar.xz
+2016/06/30 14:26:36 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.14.1-1.tar.xz
+2016/06/30 14:26:36 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libmetalink/libmetalink3/libmetalink3-0.1.2-1.tar.bz2
+2016/06/30 14:26:37 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.0.3-1.tar.xz
+2016/06/30 14:26:37 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.7.1-1.tar.xz
+2016/06/30 14:26:37 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.42-1.tar.xz
+2016/06/30 14:26:37 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.13.0-1.tar.xz
+2016/06/30 14:26:37 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-9.tar.xz
+2016/06/30 14:26:37 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.7.0-1.tar.xz
+2016/06/30 14:26:37 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.6-1.tar.xz
+2016/06/30 14:26:38 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libxml2/libxml2-2.9.3-1.tar.xz
+2016/06/30 14:26:39 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-i686-binutils/mingw64-i686-binutils-2.25.0.1.23f238d-1.tar.xz
+2016/06/30 14:26:39 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-curl/mingw64-i686-curl-7.49.1-1.tar.xz
+2016/06/30 14:26:44 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-i686-gcc/mingw64-i686-gcc-core/mingw64-i686-gcc-core-4.9.2-2.tar.xz
+2016/06/30 14:26:46 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-headers/mingw64-i686-headers-4.0.6-1.tar.xz
+2016/06/30 14:26:46 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-libssh2/mingw64-i686-libssh2-1.7.0-2.tar.xz
+2016/06/30 14:26:47 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-nghttp2/mingw64-i686-nghttp2-1.7.1-1.tar.xz
+2016/06/30 14:26:47 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-i686-pkg-config/mingw64-i686-pkg-config-0.28-1.tar.xz
+2016/06/30 14:26:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-runtime/mingw64-i686-runtime-4.0.6-1.tar.xz
+2016/06/30 14:26:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-windows-default-manifest/mingw64-i686-windows-default-manifest-6.4-1.tar.xz
+2016/06/30 14:26:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-winpthreads/mingw64-i686-winpthreads-4.0.6-1.tar.xz
+2016/06/30 14:26:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-zlib/mingw64-i686-zlib-1.2.8-4.tar.xz
+2016/06/30 14:26:49 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.25.0.1.23f238d-1.tar.xz
+2016/06/30 14:26:49 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-curl/mingw64-x86_64-curl-7.49.1-1.tar.xz
+2016/06/30 14:26:55 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-4.9.2-2.tar.xz
+2016/06/30 14:26:57 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-4.0.6-1.tar.xz
+2016/06/30 14:26:57 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-libssh2/mingw64-x86_64-libssh2-1.7.0-2.tar.xz
+2016/06/30 14:26:57 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-nghttp2/mingw64-x86_64-nghttp2-1.7.1-1.tar.xz
+2016/06/30 14:26:57 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-pkg-config/mingw64-x86_64-pkg-config-0.28-1.tar.xz
+2016/06/30 14:26:58 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-4.0.6-1.tar.xz
+2016/06/30 14:26:58 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2016/06/30 14:26:59 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-4.0.6-1.tar.xz
+2016/06/30 14:26:59 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-zlib/mingw64-x86_64-zlib-1.2.8-4.tar.xz
+2016/06/30 14:26:59 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-WWW-Curl/perl-WWW-Curl-4.17-2.tar.xz
+2016/06/30 14:26:59 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-WWW-Curl/perl-WWW-Curl-debuginfo/perl-WWW-Curl-debuginfo-4.17-1.tar.xz
+2016/06/30 14:27:01 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl_base/perl_base-5.22.2-1.tar.xz
+2016/06/30 14:27:02 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/php/php-5.6.21-1.tar.xz
+2016/06/30 14:27:02 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/php/php-curl/php-curl-5.6.21-1.tar.xz
+2016/06/30 14:27:02 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkg-config/pkg-config-0.29-1.tar.xz
+2016/06/30 14:27:02 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/shared-mime-info/shared-mime-info-1.6-3.tar.xz
+2016/06/30 14:27:05 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/curl-7.49.1-1.tar.xz
+2016/06/30 14:27:06 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/curl-debuginfo/curl-debuginfo-7.49.1-1.tar.xz
+2016/06/30 14:27:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/desktop-file-utils/desktop-file-utils-0.22-2.tar.xz
+2016/06/30 14:27:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gamin/gamin-0.1.10-15.tar.xz
+2016/06/30 14:27:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/gsettings-desktop-schemas/gsettings-desktop-schemas-3.18.1-1.tar.xz
+2016/06/30 14:27:10 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cloog-isl/libcloog-isl4/libcloog-isl4-0.18.0-2.tar.bz2
+2016/06/30 14:27:10 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.42.12-2.tar.xz
+2016/06/30 14:27:10 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/crypt/libcrypt0/libcrypt0-1.4-1.tar.xz
+2016/06/30 14:27:10 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl-devel/libcurl-devel-7.49.1-1.tar.xz
+2016/06/30 14:27:10 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl-doc/libcurl-doc-7.49.1-1.tar.xz
+2016/06/30 14:27:15 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/curl/libcurl4/libcurl4-7.49.1-1.tar.xz
+2016/06/30 14:27:16 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.21-1.tar.bz2
+2016/06/30 14:27:16 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2016/06/30 14:27:16 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/expat/libexpat1/libexpat1-2.2.0-0.tar.xz
+2016/06/30 14:27:16 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gamin/libfam0/libfam0-0.1.10-15.tar.xz
+2016/06/30 14:27:16 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/glib2.0/libglib2.0_0/libglib2.0_0-2.46.2-4.tar.xz
+2016/06/30 14:27:19 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.14.1-1.tar.xz
+2016/06/30 14:27:19 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libidn/libidn11/libidn11-1.29-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl10/libisl10-0.11.1-2.tar.bz2
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/isl/libisl13/libisl13-0.14.1-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.14.1-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.14.1-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.14.1-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libmetalink/libmetalink3/libmetalink3-0.1.2-1.tar.bz2
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.0.3-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.7.1-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.4.42-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.13.0-1.tar.xz
+2016/06/30 14:27:20 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.26-9.tar.xz
+2016/06/30 14:27:21 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.7.0-1.tar.xz
+2016/06/30 14:27:21 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.6-1.tar.xz
+2016/06/30 14:27:21 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libxml2/libxml2-2.9.3-1.tar.xz
+2016/06/30 14:27:21 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-i686-binutils/mingw64-i686-binutils-2.25.0.1.23f238d-1.tar.xz
+2016/06/30 14:27:23 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-curl/mingw64-i686-curl-7.49.1-1.tar.xz
+2016/06/30 14:27:24 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-i686-gcc/mingw64-i686-gcc-core/mingw64-i686-gcc-core-4.9.2-2.tar.xz
+2016/06/30 14:27:28 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-headers/mingw64-i686-headers-4.0.6-1.tar.xz
+2016/06/30 14:27:45 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-libssh2/mingw64-i686-libssh2-1.7.0-2.tar.xz
+2016/06/30 14:27:45 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-nghttp2/mingw64-i686-nghttp2-1.7.1-1.tar.xz
+2016/06/30 14:27:45 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-i686-pkg-config/mingw64-i686-pkg-config-0.28-1.tar.xz
+2016/06/30 14:27:46 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-runtime/mingw64-i686-runtime-4.0.6-1.tar.xz
+2016/06/30 14:27:48 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-windows-default-manifest/mingw64-i686-windows-default-manifest-6.4-1.tar.xz
+2016/06/30 14:27:48 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-winpthreads/mingw64-i686-winpthreads-4.0.6-1.tar.xz
+2016/06/30 14:27:49 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-i686-zlib/mingw64-i686-zlib-1.2.8-4.tar.xz
+2016/06/30 14:27:49 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-binutils/mingw64-x86_64-binutils-2.25.0.1.23f238d-1.tar.xz
+2016/06/30 14:27:51 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-curl/mingw64-x86_64-curl-7.49.1-1.tar.xz
+2016/06/30 14:27:51 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-gcc/mingw64-x86_64-gcc-core/mingw64-x86_64-gcc-core-4.9.2-2.tar.xz
+2016/06/30 14:27:54 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-headers/mingw64-x86_64-headers-4.0.6-1.tar.xz
+2016/06/30 14:28:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-libssh2/mingw64-x86_64-libssh2-1.7.0-2.tar.xz
+2016/06/30 14:28:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-nghttp2/mingw64-x86_64-nghttp2-1.7.1-1.tar.xz
+2016/06/30 14:28:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mingw64-x86_64-pkg-config/mingw64-x86_64-pkg-config-0.28-1.tar.xz
+2016/06/30 14:28:09 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-runtime/mingw64-x86_64-runtime-4.0.6-1.tar.xz
+2016/06/30 14:28:18 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-windows-default-manifest/mingw64-x86_64-windows-default-manifest-6.4-1.tar.xz
+2016/06/30 14:28:18 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-winpthreads/mingw64-x86_64-winpthreads-4.0.6-1.tar.xz
+2016/06/30 14:28:18 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/mingw64-x86_64-zlib/mingw64-x86_64-zlib-1.2.8-4.tar.xz
+2016/06/30 14:28:18 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-WWW-Curl/perl-WWW-Curl-4.17-2.tar.xz
+2016/06/30 14:28:18 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-WWW-Curl/perl-WWW-Curl-debuginfo/perl-WWW-Curl-debuginfo-4.17-1.tar.xz
+2016/06/30 14:28:18 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl/perl_base/perl_base-5.22.2-1.tar.xz
+2016/06/30 14:28:23 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/php/php-5.6.21-1.tar.xz
+2016/06/30 14:28:23 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/php/php-curl/php-curl-5.6.21-1.tar.xz
+2016/06/30 14:28:23 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pkg-config/pkg-config-0.29-1.tar.xz
+2016/06/30 14:28:24 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/shared-mime-info/shared-mime-info-1.6-3.tar.xz
+2016/06/30 14:28:24 Changing gid back to original
+2016/06/30 14:28:24 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2016/06/30 14:29:23 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2016/06/30 14:29:23 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2016/06/30 14:29:24 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2016/06/30 14:29:24 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/gsettings-desktop-schemas.sh"
+2016/06/30 14:29:24 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/php.sh"
+2016/06/30 14:29:25 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2016/06/30 14:29:25 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2016/06/30 14:29:26 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2016/06/30 14:29:33 Changing gid to Administrators
+2016/06/30 14:30:07 note: Installation Complete
+2016/06/30 14:30:07 Ending cygwin install
+2016/06/30 17:49:07 Starting cygwin install, version 2.874
+2016/06/30 17:49:07 User has backup/restore rights
+2016/06/30 17:49:07 Current Directory: C:\Windows\system32
+2016/06/30 17:49:07 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2016/06/30 17:49:08 source: network install
+2016/06/30 17:49:09 root: C:\cygwin64 system
+2016/06/30 17:49:10 Selected local directory: C:\Windows\system32
+2016/06/30 17:49:11 net: Direct
+2016/06/30 17:49:13 site: http://cygwin.mirror.constant.com/
+2016/06/30 17:51:42 Adding required dependency csih: Selecting version 0.9.9-1 for installation.
+2016/06/30 17:51:42 Adding required dependency cygrunsrv: Selecting version 1.62-1 for installation.
+2016/06/30 17:51:42 Adding required dependency diffutils: Selecting version 3.3-3 for installation.
+2016/06/30 17:51:42 Adding required dependency libsigsegv2: Selecting version 2.10-2 for installation.
+2016/06/30 17:51:42 Adding required dependency openssl-devel: Selecting version 1.0.2h-1 for installation.
+2016/06/30 17:51:42 Adding required dependency zlib-devel: Selecting version 1.2.8-3 for installation.
+2016/06/30 17:51:42 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/autossh/autossh-1.4e-1.tar.xz
+2016/06/30 17:51:42 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz
+2016/06/30 17:51:42 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2016/06/30 17:51:42 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/diffutils/diffutils-3.3-3.tar.xz
+2016/06/30 17:51:42 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2016/06/30 17:51:43 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-common/libssh-common-0.7.3-1.tar.xz
+2016/06/30 17:51:43 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-debuginfo/libssh-debuginfo-0.7.3-1.tar.xz
+2016/06/30 17:51:43 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-devel/libssh-devel-0.7.3-1.tar.xz
+2016/06/30 17:51:43 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2-debuginfo/libssh2-debuginfo-1.7.0-1.tar.xz
+2016/06/30 17:51:43 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2-devel/libssh2-devel-1.7.0-1.tar.xz
+2016/06/30 17:51:44 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.5.0-1.tar.xz
+2016/06/30 17:51:44 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh4/libssh4-0.7.3-1.tar.xz
+2016/06/30 17:51:44 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssh/openssh-7.2p2-1.tar.xz
+2016/06/30 17:51:45 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssh/openssh-debuginfo/openssh-debuginfo-7.2p2-1.tar.xz
+2016/06/30 17:51:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-devel/openssl-devel-1.0.2h-1.tar.xz
+2016/06/30 17:51:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-WWW-Curl/perl-WWW-Curl-debuginfo/perl-WWW-Curl-debuginfo-4.17-2.tar.xz
+2016/06/30 17:51:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ssh-pageant/ssh-pageant-1.4-1.tar.xz
+2016/06/30 17:51:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ssh-pageant/ssh-pageant-debuginfo/ssh-pageant-debuginfo-1.4-1.tar.xz
+2016/06/30 17:51:48 Downloaded C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib-devel/zlib-devel-1.2.8-3.tar.xz
+2016/06/30 17:51:50 Running preremove script for  libssh2_1
+2016/06/30 17:51:50 Running preremove script for  perl-WWW-Curl-debuginfo
+2016/06/30 17:51:50 Uninstalling libssh2_1
+2016/06/30 17:51:50 Uninstalling perl-WWW-Curl-debuginfo
+2016/06/30 17:51:50 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/autossh/autossh-1.4e-1.tar.xz
+2016/06/30 17:51:50 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/csih/csih-0.9.9-1.tar.xz
+2016/06/30 17:51:50 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygrunsrv/cygrunsrv-1.62-1.tar.xz
+2016/06/30 17:51:51 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/diffutils/diffutils-3.3-3.tar.xz
+2016/06/30 17:51:51 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2016/06/30 17:51:51 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-common/libssh-common-0.7.3-1.tar.xz
+2016/06/30 17:51:51 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-debuginfo/libssh-debuginfo-0.7.3-1.tar.xz
+2016/06/30 17:51:52 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh-devel/libssh-devel-0.7.3-1.tar.xz
+2016/06/30 17:51:52 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2-debuginfo/libssh2-debuginfo-1.7.0-1.tar.xz
+2016/06/30 17:51:53 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2-devel/libssh2-devel-1.7.0-1.tar.xz
+2016/06/30 17:51:54 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.5.0-1.tar.xz
+2016/06/30 17:51:54 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libssh/libssh4/libssh4-0.7.3-1.tar.xz
+2016/06/30 17:51:55 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssh/openssh-7.2p2-1.tar.xz
+2016/06/30 17:51:56 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssh/openssh-debuginfo/openssh-debuginfo-7.2p2-1.tar.xz
+2016/06/30 17:51:58 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-devel/openssl-devel-1.0.2h-1.tar.xz
+2016/06/30 17:52:13 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/perl-WWW-Curl/perl-WWW-Curl-debuginfo/perl-WWW-Curl-debuginfo-4.17-2.tar.xz
+2016/06/30 17:52:13 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ssh-pageant/ssh-pageant-1.4-1.tar.xz
+2016/06/30 17:52:13 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ssh-pageant/ssh-pageant-debuginfo/ssh-pageant-debuginfo-1.4-1.tar.xz
+2016/06/30 17:52:13 Extracting from file://C:\Windows\system32/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib-devel/zlib-devel-1.2.8-3.tar.xz
+2016/06/30 17:52:13 Changing gid back to original
+2016/06/30 17:52:13 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2016/06/30 17:52:39 running: C:\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2016/06/30 17:52:42 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssh.sh"
+2016/06/30 17:52:43 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_desktop-file-utils.sh"
+2016/06/30 17:52:43 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_glib2.0.sh"
+2016/06/30 17:52:43 running: C:\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_shared-mime-info.sh"
+2016/06/30 17:52:43 Changing gid to Administrators
+2016/06/30 17:53:12 note: Installation Complete
+2016/06/30 17:53:12 Ending cygwin install

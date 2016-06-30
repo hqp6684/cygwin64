@@ -1,0 +1,63 @@
+commit 5563a0bea6045b863659de58e98b2876cb34a256 (HEAD, tag: v1.7.1, origin/v1.7.x, origin/HEAD, v1.7.x)
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-11
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-11
+
+    Update man pages
+
+commit 5952f071dad3ca3a9fbc079b804d97d74ee9da00
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-11
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-11
+
+    Bump up version number to 1.7.1
+
+commit 5a7486164f216ef7987f5fa5ae41f2c39b764d12
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-11
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-11
+
+    Fix configure script for non-gcc, clang build
+
+commit c8395edfbe13493ecf9b6110175d504903fa23ed
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-10
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-10
+
+    asio: client: Limit incoming response header field buffer size
+
+commit 3bff503a16f9f4938b4a2f4a3ce4493847d1b5e4
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-04
+
+    Add warning
+
+commit 7a0ab83107389fdc24fb72e106e5fbaf18e74c64
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-04
+
+    nghttp: Limit incoming header field buffer
+
+commit 026919b7ea89b6167f0fb84824a644fbbdabc8e7
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-04
+
+    asio: server: Limit incoming request header field buffer size
+
+commit 64d7288428fa74e64d3e13e819263e5df4b88444
+Author:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+AuthorDate: 2016-02-04
+Commit:     Tatsuhiro Tsujikawa <tatsuhiro.t@gmail.com>
+CommitDate: 2016-02-04
+
+    nghttpd: Limit request header buffer

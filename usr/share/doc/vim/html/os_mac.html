@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>VIM: os_mac</title>
+<link rel="stylesheet" href="vim-stylesheet.css" type="text/css">
+</head>
+<body>
+<h2>OS_MAC</h2>
+<pre>
+<b class="vimtag">*<a name="os_mac.txt">os_mac.txt</a>*</b>    For Vim version 7.4.  Last change: 2006 Apr 30
+
+
+		  VIM REFERENCE MANUAL    by Bram Moolenaar et al.
+
+
+					<b class="vimtag">*<a name="mac">mac</a>*</b> <b class="vimtag">*<a name="Mac">Mac</a>*</b> <b class="vimtag">*<a name="macintosh">macintosh</a>*</b> <b class="vimtag">*<a name="Macintosh">Macintosh</a>*</b>
+
+This file documents the particularities of the Macintosh version of Vim.
+
+<code class="note">NOTE:</code> This file is a bit outdated.  You might find more useful info here:
+	http://macvim.org/
+
+1. Filename Convention		|<a href="os_mac.html#mac-filename">mac-filename</a>|
+2. .vimrc an .vim files		|<a href="os_mac.html#mac-vimfile">mac-vimfile</a>|
+3. FAQ				|<a href="os_mac.html#mac-faq">mac-faq</a>|
+4. Known Lack			|<a href="os_mac.html#mac-lack">mac-lack</a>|
+5. Mac Bug Report		|<a href="os_mac.html#mac-bug">mac-bug</a>|
+6. Compiling Vim		|<a href="os_mac.html#mac-compile">mac-compile</a>|
+
+There was a Mac port for version 3.0 of Vim.  Here are the first few lines
+from the old file:
+
+VIM Release <code class="note">Note</code>s
+Initial Macintosh release, VIM version 3.0
+19 October 1994
+
+Eric Fischer
+<code class="special">&lt;enf1@midway.uchicago.edu&gt;</code>, <code class="special">&lt;eric@jcp.uchicago.edu&gt;</code>, <code class="special">&lt;etaoin@uchicago.edu&gt;</code>
+5759 N. Guilford Ave
+Indianapolis IN 46220 USA
+
+</pre><hr><pre>1. Filename Convention					<b class="vimtag">*<a name="mac-filename">mac-filename</a>*</b>
+
+Starting with Vim version 7 you can just use the unix path separators with
+Vim. In order to determine if the specified filename is relative to the
+current folder or absolute (i.e. relative to the "Desktop"), the following
+algorithm is used:
+
+	If the path start by a "/", the path is absolute
+	If the path start by a ":", the path is relative
+	If the path doesn't start by neither a "/" nor ":",
+	  and a ":" is found before a "/" then the path is absolute
+
+<code class="example">		:e /HD/text</code>
+<code class="example">		:e HD:text</code>
+&lt;	Edit the file "text" of the disk "HD"
+<code class="example">		:e :src:main.c</code>
+<code class="example">		:e src/main.c</code>
+&lt;	Edit the file "main.c" in the folder "src" in the current folder
+<code class="example">		:e os_mac.c</code>
+	Edit the file "os_mac.c" in the current folder.
+
+You can use the |<a href="starting.html#$VIM">$VIM</a>| and |<a href="starting.html#$VIMRUNTIME">$VIMRUNTIME</a>|  variable.
+<code class="example"></code>
+<code class="example">		:so $VIMRUNTIME:syntax:syntax.vim</code>
+<code class="example"></code>
+</pre><hr><pre>2. .vimrc and .vim files				<b class="vimtag">*<a name="mac-vimfile">mac-vimfile</a>*</b>
+
+It is recommended to use Unix style line separators for Vim scripts, thus a
+single newline character.
+
+When starting up Vim will load the $VIMRUNTIME/macmap.vim script to define
+default command-key mappings.
+
+On older systems files starting with a dot "." are discouraged, thus the rc
+files are named "vimrc" or "_vimrc" and "gvimrc" or "_gvimrc".  These files
+can be in any format (mac, dos or unix).  Vim can handle any file format when
+the |<a href="options.html#'nocompatible'">'nocompatible'</a>| option is set, otherwise it will only handle mac format
+files.
+
+</pre><hr><pre>3. Mac FAQ						<b class="vimtag">*<a name="mac-faq">mac-faq</a>*</b>
+
+On the internet:  http://macvim.org/OSX/index.php#FAQ
+
+Q: I can't enter non-ASCII character in Apple Terminal.
+A: Under Window Settings, Emulation, make sure that "Escape non-ASCII
+   characters" is not checked.
+
+Q: How do I start the GUI from the command line?
+A: Assuming that Vim.app is located in /Applications:
+	open /Applications/Vim.app
+   Or:
+	/Applications/Vim.app/Contents/MacOS/Vim -g  <code class="special">{arguments}</code>
+
+Q: How can I set $PATH to something reasonable when I start Vim.app from the
+   GUI or with open?
+A: The following trick works with most shells.  Put it in your vimrc file.
+   This is included in the system vimrc file included with the binaries
+   distributed at macvim.org .
+<code class="example">	let s:path = system("echo echo VIMPATH'$<code class="special">{PATH}</code>' | $SHELL -l")</code>
+<code class="example">	let $PATH = matchstr(s:path, 'VIMPATH\zs.\<code class="special">{-}</code>\ze\n')</code>
+<code class="example"></code>
+</pre><hr><pre>4. Mac Lack						<b class="vimtag">*<a name="mac-lack">mac-lack</a>*</b>
+
+In a terminal CTRL-^ needs to be entered as Shift-Control-6.  CTRL-@ as
+Shift-Control-2.
+
+</pre><hr><pre>5. Mac Bug Report					<b class="vimtag">*<a name="mac-bug">mac-bug</a>*</b>
+
+When reporting any Mac specific bug or feature change, please use the vim-mac
+maillist |<a href="intro.html#vim-mac">vim-mac</a>|.  However, you need to be subscribed.  An alternative is to
+send a message to the current MacVim maintainers:
+
+	mac@vim.org
+
+</pre><hr><pre>6. Compiling Vim					<b class="vimtag">*<a name="mac-compile">mac-compile</a>*</b>
+
+See the file "src/INSTALLmac.txt" that comes with the source files.
+
+
+ vim:tw=78:ts=8:ft=help:norl:
+</pre>
+<p><i>Generated by vim2html on Mon, 02 May 2016 16:38:55</i></p>
+</body>
+</html>
